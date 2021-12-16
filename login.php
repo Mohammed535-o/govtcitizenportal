@@ -1,36 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="login_style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Red+Hat+Mono:wght@300&display=swap"
-        rel="stylesheet">
-</head>
-<body>
-    
-    <div class="login-form">
-        <h1>Login</h1>
-        <form action="validation.php" method="post">
-            <div class="form-group">
-                <label>Aadhar Number : </label>
-                <br>
-                <input type="number" name="aadhar" class="form-control" >
-            </div>
-            <div class="form-group">
-                <label>Password : </label>
-                <br>
-                <input type="password" name="password" class="form-control" >
-            </div>
-            <button type="submit" class="btn">Login</button>
-             <p>Don't have an account? <a href="register.php">Register</a></p>
-        </form>
+<section class="loginWrapper">
+  
+	<ul class="tabs">
+		<li class="active">Login</li>
+		<li>Register</li>
+	</ul>
 
-    </div>
-</body>
-</html>
+	<ul class="tab__content">
+    
+		<li class="active">
+			<div class="content__wrapper">
+				<form method="POST" action="">
+					<input type="email" name="email" placeholder="email">
+					<input type="password" name="password" placeholder="Password">
+					<input type="submit" value="Login" name="login">
+				</form>
+			</div>
+		</li>
+   
+		<li>
+			<div class="content__wrapper">
+				<form method="POST" action="">
+					<input type="name" name="name" placeholder="Username">
+					<input type="email" name="email" placeholder="email">
+					<input type="pass" name="pass" placeholder="Password">
+					<input type="repass" name="repass" placeholder="Repeat-Password">
+					<input type="submit" value="Register" name="register">
+				</form>
+			</div>
+		</li>
+  
+	</ul>
+
+</section>
+
+	<div class="logginFormFooter">
+	&copy; 2015-<?php echo date(Y);?> hello world <a href="#">website.com</a>
+	</div>
