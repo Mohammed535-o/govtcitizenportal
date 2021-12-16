@@ -27,8 +27,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse1">
                 <div class="navbar-nav">
-                    <a href="#" class="nav-item nav-link active ms-3">Home</a>
-                    <a href="#" class="nav-item nav-link ms-3">Services</a>
+                    <a href="home.html" class="nav-item nav-link active ms-3">Home</a>
+                    
                     <div class="dropdown ms-3">
                         <a href="" class="nav-link dropdown-toggle" type="" id="dropdownMenuButton1"
                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -46,7 +46,7 @@
                             </li>
                         </ul>
                     </div>
-                    <a href="#" class="nav-item nav-link ms-3">Feedback</a>
+                    <a href="feedback.php" class="nav-item nav-link ms-3">Feedback</a>
 
                 </div>
                 <form class="d-flex ms-auto">
@@ -102,6 +102,20 @@
         <div class="bg-warning container-fluid p-3 m-0 display-5 text-center text-black fw-bold">Recently Asked
             Questions</div>
         <p>q1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, eos?</p>
+        <input id="searchbar" onkeyup="search_animal()" type="text" name="search" placeholder="Search queries">
+        
+        <!-- ordered list -->
+        <ol id='list '>
+            <li class="queries">get a emergency ambulance</li>
+            <li class="queries">get a aroghyasree card</li>
+            <li class="queries">domain wise doctors</li>
+            <li class="queries">get hospitals details</li>
+            <li class="queries">covid 19 vaccinations </li>
+            <li class="queries">how to book slot for vaccinations</li>
+            <li class="queries">can i bring a family member to hospital</li>
+            <li class="queries">do i need to get treatment</li>
+        
+        </ol>
     </div>
 
 
@@ -146,6 +160,17 @@
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function search_animal() {
+            let input = document.getElementById('searchbar').value
+            input = input.toLowerCase();
+            let x = document.getElementsByClassName('queries');
+
+            for (i = 0; i < x.length; i++) {
+                if (!x[i].innerHTML.toLowerCase().includes(input)) { x[i].style.display = "none"; } else { x[i].style.display = "list-item"; }
+            }
+        }
+    </script>
 </body>
 
 </html>
