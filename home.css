@@ -1,0 +1,153 @@
+.card{
+    padding-top : 0.5em;
+    text-decoration : none;
+    /* padding-left : 0;
+    padding-right : 0; */
+    background : black;
+    border-radius : 2em;
+}
+
+h3{
+    color : white;
+}
+h3:hover{
+    text-shadow: 0 0 5px #03e9f4,
+                 0 0 10px #03e9f4,
+                 0 0 25px #03e9f4,
+                 0 0 50px #03e9f4,
+                 0 0 100px #03e9f4;
+}
+.baigan{
+    margin : 0;
+  background-image: url("https://c0.wallpaperflare.com/preview/576/99/716/india-new-delhi-government-parliament.jpg");
+    background-size : cover;
+    background-repeat: no-repeat;
+    padding : 12rem;
+}
+
+
+.pass{
+    /* font-size: 3em; */
+    color : rgb(32, 31, 31);
+    margin : auto;
+    font-family: 'Playfair Display', serif;
+}
+
+.rounded-top{
+    width: 400px;
+    height: 250px;
+}
+.s1:hover,.s2:hover,.s3:hover,
+.s4:hover,.s5:hover,.s6:hover{
+    transform : scale(1.03);
+    transition : 0.3s ease-in-out;
+}
+.s1,.s2,.s3,.s4,.s5,.s6{
+    box-shadow: 0 0 5px black,
+                0 0 10px black,
+                0 0 25px black,
+                0 0 50px black,
+                0 0 100px black;
+    cursor : pointer;
+}
+.navbar-nav a:hover{
+    color : white;
+    background-color : black;
+}
+.account{
+    font-size : 29px;
+}
+
+.footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#282d32;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+::selection{
+    color : white;
+    background : green;
+}

@@ -1,0 +1,60 @@
+body 
+{
+    background : url("https://upload.wikimedia.org/wikipedia/commons/3/31/New_Parliament_Building.jpg");
+    margin : 0;
+    padding : 0;
+    text-align : center;
+}
+.login-form
+{
+    color : white;
+    background-color : #212529;
+    font-size : 2em;
+    padding : 2em;
+    font-family: 'Red Hat Mono', monospace;
+    padding-left : 1.5em;
+    margin : auto;
+    margin-top : 5em;
+    border-radius : 1em;
+}
+.login-form{
+    width : 10em;
+}
+.form-control{
+    outline : none;
+    width : 12em;
+    font-size : 0.7em;
+}
+.form-control{
+    padding : 0.5em;
+    margin : 1em;
+    margin-top : 0.2em;
+}
+label {
+    font-size : 0.9em;
+    margin-top : 0.8em;
+}
+.login-form h1{
+    font-size : 1em;
+    color : white;
+    margin : 0 1em 0 0.6em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.btn {
+    padding : 0.1em;
+    font-size : 0.8em;
+    padding-left : 1em;
+    padding-right :1em;
+    background-color: #016b9c;
+    border : none;
+    border-radius : 10em;
+}
+p{
+    font-size : 0.5em;
+}
+p a{
+    font-size : 1.1em;
+    color : #016b9c;
+}

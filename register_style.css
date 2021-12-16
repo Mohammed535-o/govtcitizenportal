@@ -1,0 +1,30 @@
+body 
+{
+    background : url("https://upload.wikimedia.org/wikipedia/commons/3/31/New_Parliament_Building.jpg");
+    margin : 0;
+    padding : 0;
+    /* text-align : center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color : white;
+    justify-content: center;
+}
+label {
+    color : rgb(36, 34, 34);
+    /* margin-left : 10em; */
+}
+form{
+    margin : 0 auto;
+    margin-left : 40em;
+    /* margin-right : 30em; */
+}
+input{
+    width : 500px;
+}
+
+.form-label{
+    letter-spacing: 0.1em;
+}
+.container{
+    background :rgb(36, 34, 34);
+}
